@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  {{ partial "head.html" . }}
+  <body>
+    {{ partial "nav.html" . }}
+    <main class="content" role="main">
+      <div class="container">
+        <h1>{{ .Title }}</h1>
+        <div class="project-image">
+          <img src="{{ .Params.projectimage }}" alt="">
+        </div>
+        <div>{{ .Content }}</div>
+      </div>
+    </main>
+  </body>
+  {{ partial "footer.html" . }}
+</html>

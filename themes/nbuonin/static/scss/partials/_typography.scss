@@ -6,7 +6,7 @@ body {
   line-height: 1.25em;
   font-family: $display;
   // font-weight: 300;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 nav h1 {
@@ -15,7 +15,7 @@ nav h1 {
   text-transform: uppercase;
   letter-spacing: 3px;
   // font-weight: 400;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 main h1 {
@@ -26,7 +26,7 @@ main h1 {
   margin: 0 auto 1em;
   font-style: italic;
   // font-weight: 400;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 h2 {
@@ -36,13 +36,13 @@ h2 {
   line-height: 1.25em;
   padding-top: 0.6em;
   padding-bottom: 1em;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 h3 {
   font-family: $display;
   font-size: 1.1em;
-  font-weight: 600;
+  font-weight: 700;
   text-transform: uppercase;
 }
 
