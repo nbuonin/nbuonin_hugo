@@ -84,14 +84,14 @@ body {
   font-size: 18px;
   line-height: 1.25em;
   font-family: 'Josefin Sans', 'Open Sans', sans-serif;
-  font-weight: 400; }
+  font-weight: 600; }
 
 nav h1 {
   font-size: 1.75em;
   font-family: 'Josefin Sans', 'Open Sans', sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
-  font-weight: 600; }
+  font-weight: 700; }
 
 main h1 {
   font-size: 1.75em;
@@ -100,7 +100,7 @@ main h1 {
   letter-spacing: 3px;
   margin: 0 auto 1em;
   font-style: italic;
-  font-weight: 400; }
+  font-weight: 600; }
 
 h2 {
   font-family: 'Josefin Sans', 'Open Sans', sans-serif;
@@ -109,12 +109,12 @@ h2 {
   line-height: 1.25em;
   padding-top: 0.6em;
   padding-bottom: 1em;
-  font-weight: 600; }
+  font-weight: 700; }
 
 h3 {
   font-family: 'Josefin Sans', 'Open Sans', sans-serif;
   font-size: 1.1em;
-  font-weight: 600;
+  font-weight: 700;
   text-transform: uppercase; }
 
 main {
@@ -220,8 +220,9 @@ nav .menu ul li {
   nav .menu ul li:last-of-type {
     margin-left: 0px; } }
 
-main .container {
-  max-width: 700px; }
+@media screen and (min-width: 851px) {
+  main .container {
+    max-width: 700px; } }
 
 main.home-page .container {
   -webkit-flex-flow: column nowrap;
@@ -233,7 +234,7 @@ main.home-page .container {
     -webkit-flex-flow: row wrap;
         -ms-flex-flow: row wrap;
             flex-flow: row wrap;
-    max-width: 960px; } }
+    max-width: 980px; } }
 
 main.home-page .container .col-1, main.home-page .container .col-2 {
   margin-bottom: 1em;
@@ -244,11 +245,11 @@ main.home-page .container .col-1, main.home-page .container .col-2 {
 
 @media screen and (min-width: 851px) {
   main.home-page .container .col-1 {
-    -webkit-box-flex: 2;
-    -webkit-flex: 2;
-        -ms-flex: 2;
-            flex: 2;
-    margin-right: 2em; } }
+    -webkit-box-flex: 3;
+    -webkit-flex: 3;
+        -ms-flex: 3;
+            flex: 3;
+    margin-right: 4em; } }
 
 @media screen and (min-width: 851px) {
   main.home-page .container .col-2 {
@@ -258,9 +259,7 @@ main.home-page .container .col-1, main.home-page .container .col-2 {
             flex: 1; } }
 
 main.home-page .container .col-2 h2 {
-  text-align: center;
-  border-bottom: solid black 1px;
-  margin-bottom: 1em; }
+  text-align: center; }
 
 div.project {
   width: 100%;
@@ -310,6 +309,9 @@ div.project a.title-container:hover div.title {
 .blog-post {
   margin-bottom: 1.5em; }
 
+.blog-post h3 {
+  margin-bottom: 0.25em; }
+
 .blog-link {
   font-style: italic; }
 
@@ -349,10 +351,12 @@ footer .container .social > * {
   margin-left: 0.5em; }
 
 code {
-  border: solid rgba(0, 0, 0, 0.5) 1px; }
+  border: solid rgba(0, 0, 0, 0.5) 1px;
+  padding: 0.25em; }
 
 pre code {
   margin: 1em;
+  padding: 0.75em;
   display: block; }
 
 .col-1, .col-2 {

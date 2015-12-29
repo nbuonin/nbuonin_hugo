@@ -6,8 +6,18 @@
     <description>Recent content on Nick Buonincontri</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 28 Dec 2015 23:44:46 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 29 Dec 2015 18:42:19 -0500</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>FB Decruck</title>
+      <link>http://localhost:1313/project/fbdecruck/</link>
+      <pubDate>Tue, 29 Dec 2015 18:42:19 -0500</pubDate>
+      
+      <guid>http://localhost:1313/project/fbdecruck/</guid>
+      <description>&lt;p&gt;www.ferandedecruck.com is a multi-lingual Drupal site, built in support of the mission to reintroduce Decruck&amp;rsquo;s work to the public. Working on this project was especially exciting because of the challenge of localization in Drupal.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>A First Post</title>
@@ -61,7 +71,11 @@ of the library.&lt;/p&gt;
       <pubDate>Sun, 27 Dec 2015 12:24:36 -0500</pubDate>
       
       <guid>http://localhost:1313/about</guid>
-      <description>&lt;p&gt;Nick Buonincontri is a Senior Technical Specialist at the Center for Teaching and Learning - Columbia University.  Nick is also a freelance web developer.&lt;/p&gt;
+      <description>&lt;p&gt;Nick Buonincontri is a Senior Technical Specialist at the Center for Teaching and Learning. Nick is responsible for the smooth functioning of the CTL&amp;rsquo;s hardware, from staff machines to the workstations of the Faculty Support Lab. Nick works to ensure that hardware issues don&amp;rsquo;t interfere with the mission of the center.&lt;/p&gt;
+
+&lt;p&gt;Prior to joining the CTL, Nick was the Operations Coordinator for Columbia University&amp;rsquo;s Italian Academy for Advanced Studies in America, where he was responsible for the upkeep of the landmarked Casa Italiana. Nick is a graduate of the Mannes College of Music where he received his Undergraduate and Master&amp;rsquo;s degree in Double Bass performance.&lt;/p&gt;
+
+&lt;p&gt;Outside of work, Nick develops web sites for various non-profits. He is active in the New York Drupal community, and recently volunteered for the dev team for NYC Camp 2015&lt;/p&gt;
 </description>
     </item>
     

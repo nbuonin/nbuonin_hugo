@@ -6,8 +6,18 @@
     <description>Recent content in Projects on Nick Buonincontri</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 27 Dec 2015 16:08:49 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 29 Dec 2015 18:42:19 -0500</lastBuildDate>
     <atom:link href="http://localhost:1313/project/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>FB Decruck</title>
+      <link>http://localhost:1313/project/fbdecruck/</link>
+      <pubDate>Tue, 29 Dec 2015 18:42:19 -0500</pubDate>
+      
+      <guid>http://localhost:1313/project/fbdecruck/</guid>
+      <description>&lt;p&gt;www.ferandedecruck.com is a multi-lingual Drupal site, built in support of the mission to reintroduce Decruck&amp;rsquo;s work to the public. Working on this project was especially exciting because of the challenge of localization in Drupal.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>A first project</title>
