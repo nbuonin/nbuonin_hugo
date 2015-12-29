@@ -1,0 +1,28 @@
++++
+date = "2015-12-27T16:08:49-05:00"
+title = "A first project"
+menu = "main"
+projectimage = "http://www.fillmurray.com/g/1600/900)"
+
++++
+
+Look at this awesome project.
+
+# Nitro
+
+Quick and easy performance analyzer library for [Go](http://golang.org/).
+
+## Overview
+
+Nitro is a quick and easy performance analyzer library for Go.
+It is useful for comparing A/B against different drafts of functions
+or different functions.
+
+## Implementing Nitro
+
+Using Nitro is simple. First, use `go get` to install the latest version
+of the library.
+
+    `$ go get github.com/spf13/nitro`
+
+Next, include nitro in your application.

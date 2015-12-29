@@ -1,0 +1,275 @@
+nav {
+  //position: fixed;
+  padding: 1.5em 0 0 0;
+  width: 100%;
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px 0 rgba(0,0,0,0.1),0 -5px 3px -10px #fff;
+
+  @include respond-to(small) {
+    margin-bottom: 21px;
+  }
+
+  @include respond-to(medium-plus) {
+    position: fixed;
+    padding: 1.5em 0;
+    // background-color: #ffffff;
+    z-index: 1000;
+  }
+
+  .container {
+    flex-flow: column nowrap;
+    align-items: center;
+
+    @include respond-to(medium-plus) {
+      flex-flow: row nowrap;
+      justify-content: space-between;
+      align-items: baseline;
+    }
+  }
+
+  .menu, .name  {
+    //width: 100%;
+    flex: none;
+  }
+
+  @include respond-to(small) {
+    .menu {
+      order: 2;
+    }
+
+    .name {
+      order: 1;
+      margin-bottom: 21px;
+    }
+  }
+
+  @include respond-to(medium-plus) {
+    .menu {
+      //flex: 2;
+    }
+    .name {
+      //flex: 1;
+    }
+  }
+
+  .menu ul {
+    display: flex;
+      flex: row nowrap;
+
+    // @include respond-to(medium-plus) {
+    //   display: flex;
+    //   flex: row nowrap;
+    // }
+
+    li {
+      margin-bottom: 0.5em;
+      @include respond-to(small) {
+        margin-right: 1em;
+
+        &:last-of-type {
+          margin-right: 0px;
+        }
+      }
+
+      @include respond-to(medium-plus) {
+        padding-left: 2em;
+        margin-bottom: 0;
+
+        &:last-of-type {
+          margin-left: 0px;
+        }
+      }
+    }
+  }
+
+}
+
+main .container {
+  max-width: 700px;
+}
+
+main.home-page .container {
+  flex-flow: column nowrap;
+
+  @include respond-to(medium-plus) {
+    flex-flow: row wrap;
+    max-width: 960px;
+  }
+
+  .col-1, .col-2 {
+    margin-bottom: 1em;
+    flex: 1;
+  }
+
+  .col-1 {
+
+    @include respond-to(medium-plus) {
+      flex: 2;
+      margin-right: 2em;
+    }
+  }
+
+  .col-2 {
+    @include respond-to(medium-plus) {
+      flex: 1;
+    }
+
+    h2 {
+      text-align: center;
+      border-bottom: solid black 1px;
+      margin-bottom: 1em;
+    }
+  }
+}
+
+div.project {
+  width: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-top: 56.25%; // 9/16 * 100
+  //padding-top: 75%;
+  position: relative;
+
+  a.title-container {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,0);
+    transition: box-shadow 0.5s;
+
+    div.title {
+      //display: none;
+      font-size: 3em;
+      font-style: italic;
+      text-transform: uppercase;
+      visibility: hidden;
+      opacity: 0;
+      transition: visibility 0.5s, opacity 0.5s linear;
+    }
+
+    &:hover {
+      //transition-duration: 1s;
+      box-shadow: inset 0 0 0 1000px rgba(0,0,0,.65);
+
+      div.title {
+        //display: block;
+        visibility: visible;
+
+        //transition-duration: 1s;
+        opacity: 1;
+      }
+    }
+  }
+}
+
+.blog-post {
+  margin-bottom: 1.5em;
+}
+.blog-link {
+  font-style: italic;
+}
+
+
+footer {
+  background-color: #080808;
+  color: #ffffff;
+  padding: 0.5em 0;
+
+  .container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+
+    .credit {
+
+    }
+
+    .social {
+      font-size: 1.25em;
+
+      @include respond-to(medium-plus) {
+        font-size: 1em;
+      }
+
+      a {
+        text-decoration: none;
+        color: #ffffff;
+
+        &:hover {
+          color: darken(#ffffff, 25%);
+        }
+      }
+      > * {
+        margin-left: 0.5em;
+      }
+    }
+  }
+}
+
+code {
+  border: solid rgba(0,0,0, 0.5) 1px;
+}
+
+pre code {
+  margin: 1em;
+  display: block;
+}
+
+///////// About Page /////////
+.col-1, .col-2 {
+  margin-bottom: 1em;
+
+  @include respond-to(medium-plus) {
+    flex: 1;
+  }
+}
+
+.col-1 {
+
+  @include respond-to(medium-plus) {
+    margin-right: 2em;
+  }
+}
+
+
+main.about-page {
+  .col-1 {
+    align-self: center;
+  }
+}
+
+///////// Work Page /////////
+main.work-page .container{
+  display: block;
+}
+
+.work-container {
+  margin-bottom: 2em;
+
+  .video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+  }
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+////////// Blog List /////////
+
+main.blog-list .container {
+  flex-flow: column nowrap;
+}

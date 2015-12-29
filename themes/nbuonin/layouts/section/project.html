@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  {{ partial "head.html" . }}
+  <body>
+    {{ partial "nav.html" . }}
+    <main class="content project-list" role="main">
+      <div class="container">
+        <h1>Projects</h1>
+        {{ range where .Data.Pages "Section" "project" }}
+           {{ .Render "hp_list" }}
+        {{ end }}
+      </div>
+    </main>
+  </body>
+  {{ partial "footer.html" . }}
+</html>

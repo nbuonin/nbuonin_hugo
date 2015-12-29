@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  {{ partial "head.html" . }}
+  <body>
+    {{ partial "nav.html" . }}
+    <main class="content blog-list" role="main">
+      <div class="container">
+        <h1>Blog</h1>
+        {{ range where .Data.Pages "Section" "blog" }}
+           {{ .Render "hp_list" }}
+        {{ end }}
+      </div>
+    </main>
+  </body>
+  {{ partial "footer.html" . }}
+</html>

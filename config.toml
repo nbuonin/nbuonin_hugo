@@ -1,0 +1,6 @@
+baseurl = "http://nickbuonincontri.com/"
+languageCode = "en-us"
+title = "Nick Buonincontri"
+theme = "nbuonin"
+SectionPagesMenu = "main"
+
