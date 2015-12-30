@@ -1,6 +1,2 @@
 themes/nbuonin/static/node_modules
-public/node_modules
-public/scss/
-public/gulpfile.js
-public/package.json
-
+public/

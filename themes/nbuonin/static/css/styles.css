@@ -136,6 +136,12 @@ footer .credit {
 code {
   font-family: 'Source Code Pro', 'monospace'; }
 
+.drop-cap {
+  font-size: 3.25em;
+  float: left;
+  line-height: 40px;
+  margin-top: 4px; }
+
 nav {
   padding: 1.5em 0 0 0;
   width: 100%;
@@ -266,7 +272,9 @@ div.project {
   background-size: contain;
   background-repeat: no-repeat;
   padding-top: 56.25%;
-  position: relative; }
+  position: relative;
+  margin-bottom: 30px;
+  border: solid rgba(0, 0, 0, 0.2) 1px; }
 
 div.project a.title-container {
   position: absolute;
@@ -310,10 +318,11 @@ div.project a.title-container:hover div.title {
   margin-bottom: 1.5em; }
 
 .blog-post h3 {
-  margin-bottom: 0.25em; }
+  margin-bottom: 6px; }
 
 .blog-link {
-  font-style: italic; }
+  font-style: italic;
+  font-size: 0.85em; }
 
 footer {
   background-color: #080808;
@@ -378,28 +387,12 @@ main.about-page .col-1 {
       -ms-flex-item-align: center;
           align-self: center; }
 
-main.work-page .container {
-  display: block; }
-
-.work-container {
-  margin-bottom: 2em; }
-
-.work-container .video-container {
-  position: relative;
-  padding-bottom: 56.25%;
-  height: 0;
-  overflow: hidden;
-  max-width: 100%;
-  height: auto; }
-
-.work-container .video-container iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%; }
-
 main.blog-list .container {
   -webkit-flex-flow: column nowrap;
       -ms-flex-flow: column nowrap;
           flex-flow: column nowrap; }
+
+.project-image {
+  padding-bottom: 18px;
+  margin-bottom: 18px;
+  border-bottom: solid rgba(0, 0, 0, 0.25) 1px; }
