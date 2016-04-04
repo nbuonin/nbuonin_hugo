@@ -7,7 +7,7 @@
 
 
   
-  <link rel="stylesheet" type="text/css" href="http://nickbuonincontri.com/css/styles.css">
+  <link rel="stylesheet" type="text/css" href="http://localhost:1313/css/styles.css">
   
   
   <link href='http://fonts.googleapis.com/css?family=Josefin+Sans:600,600italic,700,700italic' rel='stylesheet' type='text/css'>
@@ -25,13 +25,17 @@
 
   </script>
   
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.min.js"></script>
+  <script src="/js/scripts.js"></script>
 </head>
 
   <body>
     <nav>
   <div class="container">
     <div class="name">
-      <h1><a href="http://nickbuonincontri.com/">Nick Buonincontri</a></h1>
+      <h1><a href="http://localhost:1313/">Nick Buonincontri</a></h1>
     </div>
     <div class="menu">
       <ul>
@@ -48,11 +52,37 @@
         <h1>About</h1>
         <div><p><span class="drop-cap">N</span>ick Buonincontri is a Senior Technical Specialist for the Center for Teaching and Learning at Columbia University.  Prior to joining the CTL, Nick was the Operations Coordinator for Columbia University&rsquo;s Italian Academy for Advanced Studies in America, where he was responsible for the upkeep of the landmarked Casa Italiana. Nick is a graduate of the Mannes College of Music where he received his Undergraduate and Master&rsquo;s degree in Double Bass performance.<br/>
 <br/>
-Outside of work, Nick develops web sites for various non-profits. He is active in the New York Drupal community, and recently volunteered for the dev team for NYC Camp 2015.</p>
+Outside of work, Nick develops web sites for various non-profits. He is active in the New York Drupal community, and recently volunteered for the dev team for NYC Camp 2015.
+<br/>
+<br/>
+<h2>Contact</h2>
+<div class="container">
+  <form id="contact-form" action="//formspree.io/nbuonin@gmail.com"
+        method="POST">
+      <label for="name">Name</label>
+      <input type="text" name="name" id="name" required>
+      <label for="message">Message</label>
+      <textarea type="text" name="message" id="message" required></textarea>
+      <label for="email">E-Mail Address</label>
+      <input type="email" name="_replyto" id="email" required>
+      <input type="hidden" name="_next" value="about/#contact-form" />
+      <input type="text" name="_gotcha" style="display:none" />
+      <input type="submit" value="Send">
+  </form>
+  <div id="success">
+    <p>Thanks for your note.  I&rsquo;ll be in touch soon.</p>
+  </div>
+  <div id="error">
+    <p>Huh, looks like there was a problem with the form.  Please try again.</p>
+  </div>
+</div></p>
 </div>
       </div>
     </main>
-  </body>
+  <script data-no-instant>document.write('<script src="http://'
+        + (location.host || 'localhost').split(':')[0]
+		+ ':1313/livereload.js?mindelay=10"></'
+        + 'script>')</script></body>
   <footer>
   <div class="container">
     <div class="credit">

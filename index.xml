@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nick Buonincontri</title>
-    <link>http://nickbuonincontri.com/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Nick Buonincontri</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 29 Dec 2015 18:42:19 -0500</lastBuildDate>
-    <atom:link href="http://nickbuonincontri.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Fernande Decruck</title>
-      <link>http://nickbuonincontri.com/project/fbdecruck/</link>
+      <link>http://localhost:1313/project/fbdecruck/</link>
       <pubDate>Tue, 29 Dec 2015 18:42:19 -0500</pubDate>
       
-      <guid>http://nickbuonincontri.com/project/fbdecruck/</guid>
+      <guid>http://localhost:1313/project/fbdecruck/</guid>
       <description>&lt;p&gt;www.ferandedecruck.com is a multi-lingual Drupal site, built in support of the mission to reintroduce Decruck&amp;rsquo;s work to the public. Working on this project was especially exciting because of the challenge of localization in Drupal.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>A First Post</title>
-      <link>http://nickbuonincontri.com/blog/first_post/</link>
+      <link>http://localhost:1313/blog/first_post/</link>
       <pubDate>Mon, 28 Dec 2015 23:44:46 -0500</pubDate>
       
-      <guid>http://nickbuonincontri.com/blog/first_post/</guid>
+      <guid>http://localhost:1313/blog/first_post/</guid>
       <description>&lt;p&gt;Hello World!&lt;/p&gt;
 
 &lt;p&gt;This is the first post on my new blog.  I&amp;rsquo;m planning on using this space to write about things that I&amp;rsquo;m working on, from learning Java, navigating Drupal, or rocking out with some SASS.&lt;/p&gt;
@@ -35,22 +35,45 @@
     
     <item>
       <title>About</title>
-      <link>http://nickbuonincontri.com/about</link>
+      <link>http://localhost:1313/about</link>
       <pubDate>Sun, 27 Dec 2015 12:24:36 -0500</pubDate>
       
-      <guid>http://nickbuonincontri.com/about</guid>
+      <guid>http://localhost:1313/about</guid>
       <description>&lt;p&gt;&lt;span class=&#34;drop-cap&#34;&gt;N&lt;/span&gt;ick Buonincontri is a Senior Technical Specialist for the Center for Teaching and Learning at Columbia University.  Prior to joining the CTL, Nick was the Operations Coordinator for Columbia University&amp;rsquo;s Italian Academy for Advanced Studies in America, where he was responsible for the upkeep of the landmarked Casa Italiana. Nick is a graduate of the Mannes College of Music where he received his Undergraduate and Master&amp;rsquo;s degree in Double Bass performance.&lt;br/&gt;
 &lt;br/&gt;
-Outside of work, Nick develops web sites for various non-profits. He is active in the New York Drupal community, and recently volunteered for the dev team for NYC Camp 2015.&lt;/p&gt;
+Outside of work, Nick develops web sites for various non-profits. He is active in the New York Drupal community, and recently volunteered for the dev team for NYC Camp 2015.
+&lt;br/&gt;
+&lt;br/&gt;
+&lt;h2&gt;Contact&lt;/h2&gt;
+&lt;div class=&#34;container&#34;&gt;
+  &lt;form id=&#34;contact-form&#34; action=&#34;//formspree.io/nbuonin@gmail.com&#34;
+        method=&#34;POST&#34;&gt;
+      &lt;label for=&#34;name&#34;&gt;Name&lt;/label&gt;
+      &lt;input type=&#34;text&#34; name=&#34;name&#34; id=&#34;name&#34; required&gt;
+      &lt;label for=&#34;message&#34;&gt;Message&lt;/label&gt;
+      &lt;textarea type=&#34;text&#34; name=&#34;message&#34; id=&#34;message&#34; required&gt;&lt;/textarea&gt;
+      &lt;label for=&#34;email&#34;&gt;E-Mail Address&lt;/label&gt;
+      &lt;input type=&#34;email&#34; name=&#34;_replyto&#34; id=&#34;email&#34; required&gt;
+      &lt;input type=&#34;hidden&#34; name=&#34;_next&#34; value=&#34;about/#contact-form&#34; /&gt;
+      &lt;input type=&#34;text&#34; name=&#34;_gotcha&#34; style=&#34;display:none&#34; /&gt;
+      &lt;input type=&#34;submit&#34; value=&#34;Send&#34;&gt;
+  &lt;/form&gt;
+  &lt;div id=&#34;success&#34;&gt;
+    &lt;p&gt;Thanks for your note.  I&amp;rsquo;ll be in touch soon.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div id=&#34;error&#34;&gt;
+    &lt;p&gt;Huh, looks like there was a problem with the form.  Please try again.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Chelsea Symphony</title>
-      <link>http://nickbuonincontri.com/project/tcs/</link>
+      <link>http://localhost:1313/project/tcs/</link>
       <pubDate>Wed, 30 Dec 2015 00:51:05 -0500</pubDate>
       
-      <guid>http://nickbuonincontri.com/project/tcs/</guid>
+      <guid>http://localhost:1313/project/tcs/</guid>
       <description>&lt;p&gt;Working with designer &lt;a href=&#34;http://www.celloalice.com/&#34;&gt;Alice Bacon&lt;/a&gt;, we developed a new website for The Chelsea Symphony - a cooperative, self-governing orchestra based in Manhattan. This project had both an inward and outward looking focus. Primarily, the orchestra sought to refresh their online presence, as well as create a platform for its musicians that reflects it&amp;rsquo;s cooperative structure.&lt;br&gt;
 &lt;br&gt;&lt;/p&gt;
 
@@ -60,10 +83,10 @@ Outside of work, Nick develops web sites for various non-profits. He is active i
     
     <item>
       <title>Video</title>
-      <link>http://nickbuonincontri.com/project/video/</link>
+      <link>http://localhost:1313/project/video/</link>
       <pubDate>Wed, 30 Dec 2015 10:06:05 -0500</pubDate>
       
-      <guid>http://nickbuonincontri.com/project/video/</guid>
+      <guid>http://localhost:1313/project/video/</guid>
       <description>&lt;p&gt;To help build audiences, I produce a series of short videos to promote upcoming concerts. Coming from a background in music, I research the pieces being played, interview the performers on camera, and edit down to a short video. Some recent interviews have been with Jolle Greenleaf - founder of TENET, Suzanne Farin on her album &lt;em&gt;Corpo di Terra,&lt;/em&gt; and composer Robert Honstein on his Vivaldi project.&lt;br&gt;
 &lt;br&gt;
 &lt;iframe src=&#34;//player.vimeo.com/video/52648031&#34; width=&#34;500&#34; height=&#34;281&#34; frameborder=&#34;0&#34; webkitallowfullscreen=&#34;&#34; mozallowfullscreen=&#34;&#34; allowfullscreen=&#34;&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;

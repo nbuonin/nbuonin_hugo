@@ -328,6 +328,34 @@ div.project a.title-container:hover div.title {
   font-style: italic;
   font-size: 0.85em; }
 
+div form#contact-form {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  width: 100%; }
+
+div form#contact-form input, div form#contact-form textarea {
+  margin-bottom: 1.5em; }
+
+div form#contact-form input {
+  line-height: 2.5em;
+  border: solid black 1px; }
+
+div form#contact-form textarea {
+  height: 6em; }
+
+div form#contact-form input[type=submit] {
+  background: #ff003b;
+  width: 75px;
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center;
+  cursor: pointer; }
+
 footer {
   background-color: #080808;
   color: #ffffff;
