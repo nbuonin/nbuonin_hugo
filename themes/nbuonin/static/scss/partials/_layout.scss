@@ -182,6 +182,31 @@ div.project {
   font-size: 0.85em;
 }
 
+div form#contact-form {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 100%;
+  input, textarea {
+    margin-bottom: 1.5em;
+  }
+
+  input {
+    line-height: 2.5em;
+    border: solid black 1px;
+  }
+
+  textarea {
+    height: 6em;
+  }
+
+  input[type=submit] {
+    background: $link-color;
+    width: 75px;
+    align-self: center;
+    cursor: pointer;
+  }
+}
+
 
 footer {
   background-color: #080808;
