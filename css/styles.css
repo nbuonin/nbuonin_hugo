@@ -349,12 +349,15 @@ div form#contact-form textarea {
   height: 6em; }
 
 div form#contact-form input[type=submit] {
-  background: #ff003b;
+  background: #6AB38D;
   width: 75px;
   -webkit-align-self: center;
       -ms-flex-item-align: center;
           align-self: center;
-  cursor: pointer; }
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 500;
+  border-radius: 4px; }
 
 footer {
   background-color: #080808;
