@@ -200,10 +200,13 @@ div form#contact-form {
   }
 
   input[type=submit] {
-    background: $link-color;
+    background: $button-color;
     width: 75px;
     align-self: center;
     cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-radius: 4px;
   }
 }
 
